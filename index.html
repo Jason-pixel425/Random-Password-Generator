@@ -6,16 +6,17 @@
         <div class="flex-container flex-column main-container">
             <h1 class="title white">Generate a <span id="change-color-h1">random password</span></h1>
             <p class="subheading-p">Never use an insecure password again.</p>
-            <button id="generate-password-btn" class="white">Generate passwords</button>
+            <button id="generate-password-btn" class="white" onclick="renderPasswords()">Generate passwords</button>
             <hr class="divider white">
             <div class="flex-container password-output-container">
-                <div class="flex-container password-container">
-                    <p class="generated-password-p">s</p>
+                <div class="flex-container password-container" id="password-one" onclick="copyToClipboardPOne()">
+                    <p class="generated-password-p"></p>
                 </div>
-                <div class="flex-container password-container">
-                    <p class="generated-password-p">s</p>
+                <div class="flex-container password-container" id="password-two" onclick="copyToClipboardPTwo()">
+                    <p class="generated-password-p"></p>
                 </div>
             </div>
+            <p id="hint"></p>
         </div>
         <script src="index.js"></script>
     </body>

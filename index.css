@@ -96,15 +96,28 @@ body {
     min-width: 445px;
 }
 
+#hint {
+    font-style: italic;
+    color: #D5D4D8;
+    margin: 0;
+    font-size: 13px;
+    margin-top: 10px;
+}
+
 .password-container {
     align-items: center;
     justify-content: center;
     width: 210px;
     height: 40px;
     background-color: #273549;
+    color: #55F991;
     border-radius: 6px;
 }
 
-.generated-password-p {
-    color: #55F991;
+.password-container:hover {
+    background-color: #232f41;
+}
+
+.password-container:active {
+    background-color: #1f2a3a;
 }
