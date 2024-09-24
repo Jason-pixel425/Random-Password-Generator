@@ -17,11 +17,11 @@ body {
     margin: 5px auto;
     font-family: "Inter";
     font-size: 20px;
+    background-color: #1F2937;
 }
 
 .main-container {
     padding: 115px 50px;
-    background-color: #1F2937;
 }
 
 /*Utility classes*/

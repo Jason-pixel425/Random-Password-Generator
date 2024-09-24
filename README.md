@@ -2,7 +2,7 @@
 
 This project generates a random password using an array of characters, numbers and symbols. The password is generated using Math.random().
 
-Link will be provided upon project completion.
+Link: https://generatepasswordrandomlyy.netlify.app/
 
 ## About Scrimba
 
