@@ -1,3 +1,110 @@
+@font-face {
+    font-family: "Karla";
+    src: url('./fonts/Karla-VariableFont_wght.ttf'), format("ttf");
+}
+
+@font-face {
+    font-family: "Inter";
+    src: url('./fonts/Inter-VariableFont_opsz\,wght.ttf'), format("ttf");
+}
+
 body {
+    /*background-color: #1F2937;*/
+    max-width: 550px;
+    min-width: 445px;
+    max-height: 550px;
+    min-height: 445px;
+    margin: 5px auto;
+    font-family: "Inter";
+    font-size: 20px;
+}
+
+.main-container {
+    padding: 115px 50px;
+    background-color: #1F2937;
+}
+
+/*Utility classes*/
+
+.flex-container {
+    display: flex;
+}
+
+.flex-column {
+    flex-direction: column;
+    align-items: start;
+}
+
+.white {
+    color: white;
+}
+
+/* Header */
+
+.title {
+    font-family: "Karla";
+    font-weight: bold;
+    font-size: 40px;
+    width: 350px;
     margin: 0;
+}
+
+#change-color-h1 {
+    color: #4ADF86;
+}
+
+/* Subheading */
+
+.subheading-p {
+    margin: 0;
+    margin-top: 10px;
+    color: #D5D4D8;
+}
+
+/* Generate password button */
+
+#generate-password-btn {
+    margin-top: 50px;
+    margin-bottom: 35px;
+    font-size: 16px;
+    background-color: #10B981;
+    padding: 10px 15px;
+    border: 0;
+    border-radius: 6px;
+}
+
+#generate-password-btn:hover {
+    background-color: #0c9467;
+}
+
+#generate-password-btn:active {
+    background-color: #096f4d;
+}
+
+/* divider */
+
+.divider{
+    margin: 0;
+    width: 445px;
+}
+
+/* generated passwords */
+.password-output-container {
+    justify-content: space-between;
+    margin-top: 35px;
+    max-width: 550px;
+    min-width: 445px;
+}
+
+.password-container {
+    align-items: center;
+    justify-content: center;
+    width: 210px;
+    height: 40px;
+    background-color: #273549;
+    border-radius: 6px;
+}
+
+.generated-password-p {
+    color: #55F991;
 }
